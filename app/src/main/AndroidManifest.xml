@@ -3,7 +3,8 @@
     package="com.aperturecs.ocr" >
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
@@ -26,7 +27,13 @@
             android:name=".CameraActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" >
         </activity>
-        <activity android:name=".PictureCropActivity" >
+        <activity
+            android:name=".PictureCropActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".TranslateActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
         </activity>
     </application>
 

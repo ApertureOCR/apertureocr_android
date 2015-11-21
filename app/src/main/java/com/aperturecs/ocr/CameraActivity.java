@@ -123,11 +123,12 @@ public class CameraActivity extends AppCompatActivity implements SurfaceHolder.C
                         e.printStackTrace();
                     }
 
+                    /*갤러리에 추가하는 인텐트*/
                     Uri contentUri = Uri.fromFile(file);
                     mediaScanIntent.setData(contentUri);
                     context.sendBroadcast(mediaScanIntent);
 
-                    intent.putExtra("fileName", fileName);
+                    intent.putExtra("filePath", Environment.getExternalStorageDirectory()+"/aperture/"+fileName);
                     startActivity(intent);
                 }
             }

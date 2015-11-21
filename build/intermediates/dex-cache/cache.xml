@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/hangeonho/StudioProjects/OCR/app/build/intermediates/exploded-aar/com.isseiaoki/simplecropview/1.0.11/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a73f2d99850ddef35f477a8b8fc371717b58427b">
+        <dex dex="/Users/hangeonho/StudioProjects/OCR/app/build/intermediates/pre-dexed/debug/classes-6e3500e638456e649928b777b82ce3535daca9b2.jar" />
+    </item>
+    <item
+        jar="/Users/hangeonho/StudioProjects/OCR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/hangeonho/StudioProjects/OCR/app/build/intermediates/pre-dexed/debug/classes-b81d959fac189178765e6d2063eac2afd991ce68.jar" />
+    </item>
+    <item
+        jar="/Users/hangeonho/StudioProjects/OCR/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/hangeonho/StudioProjects/OCR/app/build/intermediates/pre-dexed/debug/classes-0cf79526b38584f0d3a2c7f0f52783a6c45be5e2.jar" />
+    </item>
+    <item
+        jar="/Users/hangeonho/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/hangeonho/StudioProjects/OCR/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-8c7be93fec7b3f2683ce95eef955d740725bea06.jar" />
+    </item>
+    <item
+        jar="/Users/hangeonho/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/hangeonho/StudioProjects/OCR/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-be510c1449a98cee689e1c40638b0e3361b92984.jar" />
+    </item>
+    <item
+        jar="/Users/hangeonho/StudioProjects/OCR/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/hangeonho/StudioProjects/OCR/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-03d13be7cb32ca9dc6a3d5475c7ecb887c05b7b3.jar" />
+    </item>
+    <item
+        jar="/Users/hangeonho/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/hangeonho/StudioProjects/OCR/app/build/intermediates/pre-dexed/debug/okio-1.6.0-6a1aa621dc05cf0a36aec0f528758c52a7961edf.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <com.isseiaoki.simplecropview.CropImageView
+        android:id="@+id/cropImageView"
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="439dp"
+        custom:cropMode="ratio_free"
+        android:layout_weight="0.19" />
+
+    <Button
+        android:id="@+id/crop_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Translate!!"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout><!-- From: file:/Users/hangeonho/StudioProjects/OCR/app/src/main/res/layout/activity_picture_crop.xml -->
