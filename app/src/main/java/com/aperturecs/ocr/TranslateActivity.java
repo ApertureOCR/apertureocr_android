@@ -1,6 +1,7 @@
 package com.aperturecs.ocr;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.media.Image;
@@ -62,14 +63,11 @@ public class TranslateActivity extends AppCompatActivity {
 
     private String sendStringToServer(String string) throws IOException {
         OkHttpClient client = new OkHttpClient();
-
-//        {“from_lang” : “en”, “to_lang”:”ko”, “string” : 번역할 영문}
         String json = "{\"from_lang\" : \"en\", \"to_lang\":\"ko\", \"string\" : \"}" + string + "\"}";
-
         return post("thedeblur.com:7276", json);
     }
 
-    String post(String url, String json) throws IOException {
+    private String post(String url, String json) throws IOException {
         RequestBody body = RequestBody.create(JSON, json);
         Request request = new Request.Builder()
                 .url(url)

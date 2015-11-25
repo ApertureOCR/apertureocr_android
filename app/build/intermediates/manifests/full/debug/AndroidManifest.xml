@@ -37,7 +37,10 @@
             android:name="com.aperturecs.ocr.PictureCropActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" >
         </activity>
-        <activity android:name="com.aperturecs.ocr.TranslateActivity" >
+        <activity
+            android:name="com.aperturecs.ocr.TranslateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
         </activity>
     </application>
 
